@@ -1,0 +1,15 @@
+package com.amde.propertymanagement.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class PropertyDto {
+    private String title;
+    private String description;
+    private String ownerName;
+    private String ownerEmail;
+    private Double price;
+    private String address;
+}
